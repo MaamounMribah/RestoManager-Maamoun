@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoManager-Maamoun", "RestoManager-Maamoun\RestoManager-Maamoun.csproj", "{2C7E42B3-F12F-453E-9CEA-61F99DB32EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C7E42B3-F12F-453E-9CEA-61F99DB32EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7E42B3-F12F-453E-9CEA-61F99DB32EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7E42B3-F12F-453E-9CEA-61F99DB32EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7E42B3-F12F-453E-9CEA-61F99DB32EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBCB85F-3F06-472A-9B13-3FB6D286E15D}
+	EndGlobalSection
+EndGlobal

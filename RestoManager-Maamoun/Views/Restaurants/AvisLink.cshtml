@@ -1,0 +1,90 @@
+﻿@model IEnumerable<RestoManager_Maamoun.Models.RestosModel.Avis>
+@{
+    ViewData["Title"] = "RestaurantAvis";
+}
+
+<h1>lister les avis sur un restaurant bien determiner </h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.NomResto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.Specialite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.Ville)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.Tel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.LeProprio)
+            </th>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeResto.LesAvis)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>
+                @Html.DisplayFor(Model => Model.ElementAt(0).LeResto.NomResto)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.ElementAt(0).LeResto.Specialite)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.ElementAt(0).LeResto.Ville)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.ElementAt(0).LeResto.Tel)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.ElementAt(0).LeResto.LeProprio.Nom)
+            </td>
+            <td>
+            <th>
+                    Nom Personne
+            </th>
+            <th>
+                    Note
+            </th>
+            <th>
+                    Commentaire
+            </th>
+            </td>
+            <td>
+            @foreach(var item in Model)
+            {
+                
+                <tr>
+                 <td></td>
+                  <td></td>
+                <td></td>
+                 <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomPersonne)
+                    
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Note)
+                </td>
+                <td>
+
+                        @Html.DisplayFor(modelItem => item.Commentaire)
+                </td>
+                
+            </tr>
+            }
+        </td>
+        </tr>
+    </tbody>
+</table>
